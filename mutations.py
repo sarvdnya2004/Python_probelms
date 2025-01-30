@@ -4,7 +4,8 @@ def mutate_string(string, position, character):
     return ''.join(li) 
 
 if __name__ == '__main__':
-    s = input()
-    i, c = input().split()
-    s_new = mutate_string(s, int(i), c)
+    s = input("enter the name")
+    i= int (input("enter the location to be changed"))
+    c = input("enter the new character")
+    s_new = mutate_string(s, i, c)
     print(s_new)
