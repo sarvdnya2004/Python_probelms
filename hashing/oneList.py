@@ -4,5 +4,6 @@ dict = {}
 
 for i in li:
     dict[i] = dict.get(i,0)+1
-
 print(dict)
+
+

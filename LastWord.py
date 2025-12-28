@@ -8,8 +8,6 @@ class Solution(object):
 
         print(len(let[len(let)-1]))
 
-
-
 s = Solution()
 sen = "sam is my name"
 s.lengthOfLastWord(sen)
